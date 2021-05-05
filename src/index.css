@@ -1,9 +1,14 @@
 *{
   margin: 0;
 }
+@font-face {
+  font-family: 'icielMedium';
+  src: local('icielMedium'), url('./fonts/iCiel-Medium.ttf'), format('true');
+  font-weight:normal;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family:'icielMedium', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
