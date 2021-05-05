@@ -2,12 +2,12 @@ import './App.css';
 import Header from './components/Header';
 
 import Accessories from './assets/Desktop-Accessories.jpg'
-import Model3 from './assets/Desktop-Model3.jpg'
-import ModelS from './assets/Desktop-ModelS.jpg'
-import ModelX from './assets/Desktop-ModelX.jpg'
-import ModelY from './assets/Desktop-ModelY.jpg'
-import SolarPanels from './assets/Desktop-SolarPanels.jpg'
-import SolarRoof from './assets/Desktop-SolarRoof.jpg'
+import Model3 from './assets/Desktop-Model3.jpeg'
+import ModelS from './assets/Desktop-ModelS.jpeg'
+import ModelX from './assets/Desktop-ModelX.jpeg'
+import ModelY from './assets/Desktop-ModelY.jpeg'
+import SolarPanels from './assets/Desktop-SolarPanels.jpeg'
+import SolarRoof from './assets/Desktop-SolarRoof.jpeg'
 import Item from './components/Item';
 
 function App() {
@@ -87,8 +87,7 @@ function App() {
           descLink=''
           leftBtnText="SHOP NOW"
           leftBtnLink=''
-          twoButtons='FALSE'
-
+          twoButtons='false'
         />
       </div>
     </div>
