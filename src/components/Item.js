@@ -7,7 +7,7 @@ const Item = ({backgroundImg,first,title,desc,descLink, leftBtnText, leftBtnLink
     <div className="item" style={{
       backgroundImage:`url(${backgroundImg})`
     }}>
-      <div className="item">
+      <div className="item_container">
         <div className="item_text">
           <p>{title}</p>
           <div className="item_textDesc">
