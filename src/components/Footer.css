@@ -1,9 +1,8 @@
 .footer{
   width: 100vw;
-  min-height: 10vh;
+  min-height: 12vh;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .footer p{
   margin: auto 10px;

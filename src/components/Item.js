@@ -39,13 +39,13 @@ const Item = ({backgroundImg,first,title,desc,descLink, leftBtnText, leftBtnLink
                <ExpandMoreIcon />
             </div>
           )}
-          {/* conditional footer */}
+        </div>
+         {/* conditional footer */}
           {
             !twoButtons && (
               <Footer/>
             )
           }
-        </div>
       </div>
     </div>
   )
