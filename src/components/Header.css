@@ -6,8 +6,10 @@
   width: 100vw;
   top: 0;
   margin: 15px;
-  margin-top: 15px;
+  margin-top: 5px;
   z-index: 100;
+  align-items: center;
+
 }
 .header_logo{
   height: 24px;
@@ -27,6 +29,8 @@ justify-content: center;
   display: flex;
   justify-content: flex-end;
   text-transform: uppercase;
+  margin-right: 10px;
+  align-items: center;
 }
 .header_right > p{
   margin: 10px;
