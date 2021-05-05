@@ -1,6 +1,7 @@
 import "./Header.css"
 import TeslaLogo from '../assets/teslaLogoSmall.svg'
 import DehazeIcon from '@material-ui/icons/Dehaze';
+
 const Header = () => {
   return (
     <div className="header">

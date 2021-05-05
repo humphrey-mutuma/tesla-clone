@@ -1,6 +1,7 @@
 import Button  from './Button'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import './Item.css';
+import Footer from './Footer';
 
 const Item = ({backgroundImg,first,title,desc,descLink, leftBtnText, leftBtnLink,rightBtnText,rightBtnLink,twoButtons}) => {
   return (
@@ -27,14 +28,23 @@ const Item = ({backgroundImg,first,title,desc,descLink, leftBtnText, leftBtnLink
                     imp='secondary' 
                     text={rightBtnText}
                     link={rightBtnLink} />
+                    
                 )
+                
               }
           </div>
+
           {first && (
             <div className="item_expand">
                <ExpandMoreIcon />
             </div>
           )}
+          {/* conditional footer */}
+          {
+            !twoButtons && (
+              <Footer/>
+            )
+          }
         </div>
       </div>
     </div>

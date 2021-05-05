@@ -88,7 +88,6 @@ function App() {
           descLink=''
           leftBtnText="SHOP NOW"
           leftBtnLink=''
-          twoButtons='false'
         />
       </div>
     </div>

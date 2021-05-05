@@ -1,0 +1,16 @@
+.footer{
+  width: 100vw;
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer p{
+  margin: auto 10px;
+  font-size:small ;
+}
+.footer p a {
+  text-decoration: none;
+  color: black;
+  opacity: .8;
+}
