@@ -11,6 +11,7 @@ import SolarRoof from './assets/Desktop-SolarRoof.jpeg'
 import Item from './components/Item';
 
 function App() {
+  
   return (
     <div className="App">
       <Header />
