@@ -25,6 +25,7 @@ function App() {
           rightBtnText="EXISTING INVENTORY"
           rightBtnLink=''
           twoButtons='true'
+          first='true'
         />
         <Item 
           backgroundImg={ModelY}
